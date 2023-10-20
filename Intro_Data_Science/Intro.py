@@ -69,7 +69,12 @@ print(a, type(a))
 a = bytearray([65, 66, 67])
 print(a, type(a))
 
+#Array 
 
 
-
-
+Product = input("Enter the product name: ")
+Quantity = input(float("Enter the quantity of product sold: "))
+Total_sale = Product * Quantity 
+print("Product")
+print(Quantity)
+#print(f"Total sales amount is #{:.2f}".format{Total_sale}) 
