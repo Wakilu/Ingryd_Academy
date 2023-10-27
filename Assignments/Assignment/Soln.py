@@ -145,12 +145,12 @@ symmetric difference is used to find the elements that are unique to each of the
 while excluding elements that are common to both sets.
 '''
 # Example 1
-# set1 = {1, 2, 3, 4, 5}
-# set2 = {3, 4, 5, 6}
+set1 = {1, 2, 3, 4, 5, 9}
+set2 = {3, 4, 5, 6}
 
-# sym_diff_set = set1.symmetric_difference(set2)
+sym_diff_set = set1.symmetric_difference(set2)
 
-# print(sym_diff_set)
+print(sym_diff_set)
 
 # Example 2
 # setA = {1, 2, 3, 4, 5}
@@ -291,19 +291,19 @@ isdisjoint is used to determine whether two sets are disjoint,
 which means they have no elements in common.
 '''
 # Example 1
-set1 = {1, 2, 3}
-set2 = {4, 5, 6}
+# set1 = {1, 2, 3}
+# set2 = {4, 5, 6}
 
-# Check if set1 and set2 are disjoint
-is_disjoint = set1.isdisjoint(set2)
+# # Check if set1 and set2 are disjoint
+# is_disjoint = set1.isdisjoint(set2)
 
-print(is_disjoint)
+# print(is_disjoint) 
 
 # Example 2
-set1 = {1, 2, 3}
-set2 = {3, 4, 5}
+# set1 = {1, 2, 3}
+# set2 = {3, 4, 5}
 
-# Check if set1 and set2 are disjoint
-is_disjoint = set1.isdisjoint(set2)
+# # Check if set1 and set2 are disjoint
+# is_disjoint = set1.isdisjoint(set2)
 
-print(is_disjoint)
+# print(is_disjoint)
